@@ -1,0 +1,53 @@
+.section h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    font-size: 2em;
+}
+
+.container {
+    /* background-color: #eee;
+    border: 2px solid red; */
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    font-size: 4.5em;
+    padding: 3rem;
+}
+
+.btn_facebook {
+    color: #3b5998;
+}
+
+.btn_twitter {
+    color: #00aced;
+}
+
+.btn_instagram {
+    color: #517fa4;
+}
+
+.btn_youtube {
+    color: #bb0000;
+}
+
+.btn_facebook:hover,
+.btn_twitter:hover, 
+.btn_instagram:hover, 
+.btn_youtube:hover {
+    color: #13c7ae;
+}
+
+.item h3 {
+    padding: 20px;
+}
